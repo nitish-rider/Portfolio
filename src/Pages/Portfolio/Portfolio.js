@@ -4,7 +4,7 @@ import { Typography } from '@material-ui/core';
 const Portfolio = () => {
     return (
         <div>
-        
+        This is Portfolio
         </div>
     );
 };

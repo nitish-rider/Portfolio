@@ -22,9 +22,23 @@
 
 .timeline .timeline_dot{
     color: black;
-    background-color: var(--main-color);    
+    border-color : var(--main-color);    
     padding:2px !important;
 }
 .timeline .timelineConnector-root{
     background-color: #eee!important;
+}
+
+.timeline .timeline_dots_header > .MuiSvgIcon-root {
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.timeline .separator_padding{
+    padding-left: 17px !important;
+}
+
+.timeline .Timeline_Content{
+    padding-top: 0px !important;
+    margin-bottom: 20px im !important;
 }

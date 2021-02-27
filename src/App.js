@@ -23,7 +23,7 @@ function App() {
         <Header />
        <Router>
        <Switch>
-       <Route path="/portfolio"><Portfolio /></Route>        
+       <Route path="/"><Portfolio /></Route>        
        <Route path="/"> <Resume /></Route>
        </Switch>
        </Router>

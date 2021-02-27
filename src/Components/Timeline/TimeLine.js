@@ -20,7 +20,7 @@ const TimeLine = ({ title , icon, children }) => {
                 </TimelineSeparator>
                 <TimelineContent>
                     <Typography variant="h6" className={"timeline_header"}>
-                        {title}
+                        {title}hkgfjhkdfh
                     </Typography>
                 </TimelineContent>
             </TimelineItem>
@@ -37,7 +37,7 @@ const TimeLine = ({ title , icon, children }) => {
 
 export const TimeLineSeparator = () => (
     <TimelineSeparator className={"separator_padding"}>
-        <TimelineDot className={"timeline_dot"} />
+        <TimelineDot variant="outlined" className={"timeline_dot"} />
         <TimelineConnector />
     </TimelineSeparator>
 );
