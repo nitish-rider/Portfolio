@@ -20,17 +20,17 @@ const TimeLine = ({ title , icon, children }) => {
                 </TimelineSeparator>
                 <TimelineContent>
                     <Typography variant="h6" className={"timeline_header"}>
-                        {title}hkgfjhkdfh
+                        {title}
                     </Typography>
                 </TimelineContent>
             </TimelineItem>
 
             {children}
 
-            <TimelineItem>
+            {/* <TimelineItem>
                 <TimeLineSeparator />
                 <TimelineContent>Code</TimelineContent>
-            </TimelineItem>
+            </TimelineItem> */}
         </Timeline>
     );
 };
