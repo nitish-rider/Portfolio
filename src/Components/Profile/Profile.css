@@ -25,3 +25,21 @@
 .profile_image img{
     width:100%;
 }
+
+.profile_information .getresumebutton{
+    margin-top: -5px !important;
+    margin-left: 60px !important;
+    border-radius: 30px !important;
+    background-color: var(--main-color) ;
+    color: white !important;
+    font-size:12px !important;
+    padding: 8px !important;
+}
+
+.profile_information .getresumebutton .download_icon{
+    margin-left: 5px;
+    padding:10px !important;
+    color:black !important;
+    background-color: #fff;
+    border-radius:20px;
+}

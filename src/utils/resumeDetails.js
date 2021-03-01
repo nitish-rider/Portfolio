@@ -15,23 +15,23 @@ export default {
     address : 'Gorakhpur , U.P.',
 
     social: {
-        facebook:{
-            link : 'https://www.facebook.com',
-            text : 'Nitish',
-            icon : <FacebookIcon />,
-        },     
+        // facebook:{
+        //     link : 'https://www.facebook.com',
+        //     text : 'Nitish',
+        //     icon : <FacebookIcon />,
+        // },     
         linkedIn:{
-            link : 'https://www.facebook.com',
-            text : '@nitish-kumar-sonthalia',
+            link : 'https://www.linkedin.com/in/nitish-kumar-sonthalia-4713a8193/',
+            text : 'Nitish-Kumar-Sonthalia',
             icon : <LinkedInIcon />,
         },
         github:{
-            link : 'https://www.facebook.com',
+            link : 'https://github.com/nks102000',
             text : 'nks102000',
             icon : <GitHubIcon />,
         },
         instagram:{
-            link : 'https://www.facebook.com',
+            link : 'https://www.instagram.com/nitish_rider_1110/',
             text : 'nitish_rider_1110',
             icon : <InstagramIcon />,
         },  

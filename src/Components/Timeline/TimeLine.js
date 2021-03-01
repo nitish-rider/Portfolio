@@ -6,39 +6,36 @@ import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
 import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
-import WorkIcon from '@material-ui/icons/Work';
+import WorkIcon from "@material-ui/icons/Work";
 
 import "./Timeline.css";
 
-const TimeLine = ({ title , icon, children }) => {
+const TimeLine = ({ title, icon, children }) => {
     return (
         <Timeline className={"timeline"}>
             <TimelineItem className={"timeline_firstItem"}>
                 <TimelineSeparator>
-                    <TimelineDot className={"timeline_dots_header"}>{<WorkIcon />}</TimelineDot>
+                    <TimelineDot className={"timeline_dots_header"}>
+                        {icon}
+                    </TimelineDot>
                     <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent>
+                {/* <TimelineContent>
                     <Typography variant="h6" className={"timeline_header"}>
                         {title}
                     </Typography>
-                </TimelineContent>
+                </TimelineContent> */}
             </TimelineItem>
 
             {children}
-
-            {/* <TimelineItem>
-                <TimeLineSeparator />
-                <TimelineContent>Code</TimelineContent>
-            </TimelineItem> */}
         </Timeline>
     );
 };
 
 export const TimeLineSeparator = () => (
     <TimelineSeparator className={"separator_padding"}>
-        <TimelineDot variant="outlined" className={"timeline_dot"} />
         <TimelineConnector />
+        <TimelineDot variant="outlined" className={"timeline_dot"} />
     </TimelineSeparator>
 );
 
