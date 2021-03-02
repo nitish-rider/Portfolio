@@ -43,3 +43,8 @@
     background-color: #fff;
     border-radius:20px;
 }
+.profile_information{
+    top: 0;
+    left: 0;
+    margin: -44px 10px 30px;
+}
