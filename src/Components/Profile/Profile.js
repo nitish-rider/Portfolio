@@ -10,7 +10,10 @@ import profile from "../../assets/images/profile1.jpg";
 
 import resumeDetails from "../../utils/resumeDetails";
 import PersonIcon from "@material-ui/icons/Person";
-import CloudDownloadOutlinedIcon from '@material-ui/icons/CloudDownloadOutlined';
+import GetAppIcon from '@material-ui/icons/GetApp';
+
+import CustomButton from '../Button/Button'
+
 
 const TimeLineItem = ({ title, text, link }) => (
     <TimelineItem>
@@ -49,10 +52,7 @@ const Profile = () => {
                     <TimeLineItem title="Email" text={resumeDetails.email} />
                     <TimeLineItem title="Phone" text={resumeDetails.phone} />
                     <TimeLineItem title="Job" text={resumeDetails.jobs} />
-                    <TimeLineItem
-                        title="Address"
-                        text={resumeDetails.address}
-                    />
+                    <TimeLineItem title="Address" text={resumeDetails.address} />
                     {/* {Object.keys(resumeDetails.social).map((key) => (
                     <TimeLineItem
                         title={key}
@@ -62,12 +62,19 @@ const Profile = () => {
                 ))} */}
                 </TimeLine>
                 <br />
-
                 
+                <div className = "button_container">
+                <CustomButton text = {'Download Resume'} icon = {<GetAppIcon />}  link = {""}/>
+                </div> 
 
-                <button className="getresumebutton">Download Resume 
+                {/* <Button
+                    icon={ CloudDownloadOutlinedIcon }
+                    text="Get Resume"
+                ></Button> */}
+
+                {/* <button className="getresumebutton">Download Resume 
                 <i class="fa fa-download download_icon" aria-hidden="true"></i>
-                </button>
+                </button> */}
             </div>
         </div>
     );
