@@ -27,8 +27,8 @@ const TimeLineItem = ({ title, text, link }) => (
                     </a>
                 </Typography>
             ) : (
-                <Typography>
-                    <span> {title}: </span> {text}
+                <Typography className="timelineItem_text">
+                    <span className="text_info"> {title}: </span> {text}
                 </Typography>
             )}
         </TimelineContent>
