@@ -16,8 +16,8 @@ export default {
     jobs : 'Student',
     email : 'nitishks1110@gmail.com',
     phone : '+91-9918598220',
-    address : 'Gorakhpur , U.P.',
-    address2: 'Flat no.-10 , Santosh Appartment , Gas Godam Lane , Vijay Chock',
+    // address : 'Gorakhpur , U.P.',
+    address: 'Flat no.-10 , Santosh Appartment , Gas Godam Lane , Vijay Chock , Gorakhpur , U.P.',
 
     social: {
         // facebook:{
