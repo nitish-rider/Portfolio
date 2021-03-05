@@ -17,6 +17,7 @@ export default {
     email : 'nitishks1110@gmail.com',
     phone : '+91-9918598220',
     address : 'Gorakhpur , U.P.',
+    address2: 'Flat no.-10 , Santosh Appartment , Gas Godam Lane , Vijay Chock',
 
     social: {
         // facebook:{

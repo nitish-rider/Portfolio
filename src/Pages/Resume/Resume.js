@@ -9,6 +9,8 @@ import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
 import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
+import Icon from '@material-ui/core/Icon';
+import Paper from '@material-ui/core/Paper';
 
 import WorkIcon from '@material-ui/icons/Work';
 import SchoolIcon from '@material-ui/icons/School';
@@ -84,12 +86,56 @@ const Resume = () => {
             </Grid>
             </Grid>
 
-            {/* Services */}
-            <Grid container className='section'></Grid>
+             {/* Services */}
+             <Grid container className='section pb_45'>            
+                <Grid item className='section_title mb_20'>
+                    <span></span>
+                    <h6 className='section_title_text'>Services</h6>
+                </Grid>
+
+                <Grid item xs={12}>
+
+                    <Grid container spacing={3} justify = 'space-around'>
+                        {resumeDetails.services.map(service => (
+                            <Grid item xs={12} sm={6} md={3}>
+                                <div className='service top_30'>
+                                    <Icon className = 'service_icon'>{service.icon}</Icon>
+                                    <Typography className = "service_title" variant = 'h6'>{service.title}</Typography>
+                                    <Typography className = "service_desc" variant = 'body2'>{service.desc}</Typography>
+                                </div>
+                            </Grid>
+                        ))}
+                    </Grid>
+
+                </Grid>
+
+            </Grid>
 
             {/* skills*/}
+            <Grid container  className='section greybg pb_45 p_50'>
+                <Grid item xs={12}>
+                    <Grid container justify='space-between' spacing={3} className='pt_45'>
+                            
+            {resumeDetails.skills.map(skills =>(
+                <Grid item xs={12} sm = {6} md={3}>
+                    <Paper elevation={0} className = 'skill'>
+                    <Typography variant = 'h6' className="skill_title">
+                        {skills.title}
+                    </Typography>
+                    {skills.desc.map(descp => (
+                        <Typography variant = 'body2' className = 'skill_desc'>
+                            <TimelineDot variant = {'outlined'} className = 'timeline_dot'/>
+                            {descp}
+                        </Typography>
+                    ))}
+                    </Paper>
+                </Grid>
+            ))}
+                    </Grid>
+                </Grid>
 
-            <Grid container className='section'></Grid>
+            
+            </Grid>
 
             {/* contact */}
 

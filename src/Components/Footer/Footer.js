@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <div className="footer_right">
                <Typography className= "footer_copyright">
-                    © 2021 Developed By | <a href="/" target="_blank">Nitish Kumar Sonthalia</a> | All Rights Reserved.
+                    © 2021 Developed By | <a href="/" target="_blank" >Nitish Kumar Sonthalia</a> | All Rights Reserved.
                </Typography>
             </div>
         </div>

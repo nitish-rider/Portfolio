@@ -37,7 +37,7 @@ const TimeLineItem = ({ title, text, link }) => (
 
 const Profile = () => {
     return (
-        <div className="profile container_shadow margin">
+        <div  className="profile container_shadow margin">
             <div className="profile_name">
                 <Typography className="name">{resumeDetails.name}</Typography>
                 <Typography className="title">{resumeDetails.title}</Typography>

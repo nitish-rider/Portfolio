@@ -6,6 +6,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Resume from "./Pages/Resume/Resume";
+import Contact from "./Pages/Contact/Contact";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -19,23 +20,23 @@ function App() {
                     <Profile />
                 </Grid>
                 <Grid item xs>
-                    
                     <Router>
-                    <Header />
+                        <Header />
 
-                    <div className="main-content container_shadow">
-                    <Switch>
-                            <Route path="/portfolio">
-                                <Portfolio />
-                            </Route>
-                            <Route path="/">
-                                {" "}
-                                <Resume />
-                            </Route>
-                        </Switch>
-                    
-                    </div>
-                        
+                        <div className="main-content container_shadow">
+                            <Switch>
+                                <Route path="/portfolio">
+                                    <Portfolio />
+                                </Route>
+                                <Route path="/contact">
+                                    <Contact />
+                                </Route>
+                                <Route path="/">
+                                    {" "}
+                                    <Resume />
+                                </Route>
+                            </Switch>
+                        </div>
                     </Router>
                     <Footer />
                 </Grid>
