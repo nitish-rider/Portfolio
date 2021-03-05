@@ -1,6 +1,8 @@
-// import React from 'react'
-import './Contact.css';
 import React, { useState, useEffect } from "react";
+import "./Contact.css";
+import { Container, Grid } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
+import resumeDetails from "../../utils/resumeDetails";
 import { db } from "../../firebase";
 const Contact = () => {
     const [name, setName] = useState("");
@@ -34,37 +36,50 @@ const Contact = () => {
     };
 
     return (
-        <form className="form" onSubmit={handleSubmit}>
-            <h1>Contact Me 🖐</h1>
+        <>
+        <form onSubmit={handleSubmit}>
+            <Grid container className="contact-form" >
+                <Grid item className="heading-contact">
+                    <span></span>
+                    <h6>Contact Me 🖐</h6>
+                </Grid>
+                <Grid item className="input-name" xs={12}>
+                    <br />
+                    <input
+                        placeholder="Name"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                    />
+                </Grid>
 
-            <label>Name</label>
-            <input
-                placeholder="Name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-            />
+                <Grid item className="input-email" xs={12}>
+                    <br />
+                    <input
+                        placeholder="Email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+                </Grid>
 
-            <label>Email</label>
-            <input
-                placeholder="Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-            />
-
-            <label>Message</label>
-            <textarea
-                placeholder="Message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-            ></textarea>
-
-            <button
-                type="submit"
-                style={{ background: loader ? "#ccc" : "" }}
-            >
-                Submit
-      </button>
+                
+                <Grid item xs={12}>
+                    <input
+                        className="input-message"
+                        placeholder="Message"
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
+                    />
+                </Grid>
+                <button
+                    xs={12}
+                    type="submit"
+                    style={{ background: loader ? "#ccc" : "" }}
+                >
+                    Submit
+                </button>
+            </Grid>
         </form>
+        </>
     );
 };
 
