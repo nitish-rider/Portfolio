@@ -104,13 +104,11 @@ const Contact = () => {
 
                         {/*Contact Informations */}
                         <Grid item sm={12} md={6} className="work_exp">
-                            <Grid item className="section_title-contact mt_50">
-                                <span></span>
-                                <h6 className="section_title_text-contact">
-                                    Contact Informations ☎
-                                </h6>
-                            </Grid>
-                            <TimeLine title="Education">
+                            <TimeLine
+                                title="Contact Informations ☎"
+                                icon={<ContactsIcon />}
+                                className="timeline_heading"
+                            >
                                 <TimelineItem>
                                     <TimelineSeparator className="separator_padding">
                                         <TimelineDot

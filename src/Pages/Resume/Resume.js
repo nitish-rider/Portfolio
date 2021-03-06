@@ -34,7 +34,7 @@ const Resume = () => {
             </Grid>
 
             {/* Education & exp.*/}
-            <Grid container className="section" xs={12}>
+            <Grid container className="section pb_45" xs={12}>
                 <Grid item className="section_title mb_20">
                     <span></span>
                     <h6 className="section_title_text">Resume</h6>
