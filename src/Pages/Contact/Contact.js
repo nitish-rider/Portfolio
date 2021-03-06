@@ -188,14 +188,7 @@ const Contact = () => {
             <div className="map-sect">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.66083090046914!2d83.36680637184331!3d26.757989679846645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399144684118524f%3A0x746f5eb569fe999d!2sHotel%20Pradeep%20Palace!5e0!3m2!1sen!2sin!4v1615029377889!5m2!1sen!2sin"
-                    // width="850"
-                    // height="450"
-                    // frameBorder="5"
                     className="map-frame"
-                    // // style={{ border: 0 }}
-                    // allowFullScreen=""
-                    // aria-hidden="false"
-                    // tabIndex="0"
                 ></iframe>
             </div>
         </>

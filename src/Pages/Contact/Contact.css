@@ -219,13 +219,13 @@ input{
   }
 
   .section_title_text-contact{
-    margin-left:30px !important;
+    margin-left:20px !important;
 
   }
 
   .section_title-contact span{
     width: 200px  !important;
-    margin-left:30px !important;
+    margin-left:20px !important;
   }
 }
 
@@ -234,6 +234,7 @@ input{
   border: solid 3px #000000!important;
   width: 850px ;
   height:450px ;
+  margin-top: 20px !important;
 }
 
 @media (max-width:940px){
