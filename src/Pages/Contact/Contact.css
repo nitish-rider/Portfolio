@@ -252,3 +252,18 @@ input{
     height:200px !important;
   }
 }
+
+@media (max-width:990px){
+  iframe {
+    align-items: center !important;
+    width: 500px !important;
+    height:300px !important;
+  }
+}
+@media (max-width:958px){
+  iframe {
+    align-items: center !important;
+    width: 900px !important;
+    height:300px !important;
+  }
+}
