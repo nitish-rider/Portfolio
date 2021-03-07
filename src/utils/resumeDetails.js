@@ -7,7 +7,20 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import AndroidIcon from '@material-ui/icons/Android';
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
 import TheatersIcon from '@material-ui/icons/Theaters';
+import Port from "../assets/portfolio/notes.png";
+import Port2 from "../assets/portfolio/Kenisha Styles.png";
+import Pic1 from "../assets/portfolio/Pic1.png";
+import Pic2 from "../assets/portfolio/Pic2.png";
+import Pic3 from "../assets/portfolio/Pic3.png";
+import Pic4 from "../assets/portfolio/Pic4.png";
+import Pic5 from "../assets/portfolio/Pic5.png";
+import Pic6 from "../assets/portfolio/Pic6.png";
+import Calculator from "../assets/portfolio/Calulator.png";
 
+
+
+
+import LanguageIcon from '@material-ui/icons/Language';
 
 export default {
     name : 'Nitish Kumar Sonthalia',
@@ -141,6 +154,191 @@ export default {
                 "Adobe Premiere Pro",
                 "Wondershare Filmora"
             ],
+        },
+    ],
+
+    projects : [
+        // {
+        //     tag : 'webapplication',
+        //     images : Port,
+        //     title : 'Beefresh Groceries',
+        //     caption : 'A short Description about project',
+        //     desc : 'This is the notes application coded in php.',
+        //     links : [
+        //         {
+        //             link : 'https://github.com/ashishmishra-bit',
+        //             icon : <GitHubIcon />
+        //         },
+        //         {
+        //             link : 'https://github.com/ashishmishra-bit',
+        //             icon : <LanguageIcon />
+        //         },
+        //     ]
+        // },
+
+        
+        {
+            tag : 'Android',
+            images : Port,
+            title : 'Recipt Maker App',
+            caption : 'Makes a Shareable Pdf with the data entered and stores it on a RealTime Database',
+            desc : 'This is the Recipt making application coded in Java.',
+            links : [
+                {
+                    link : 'https://github.com/nks102000/Ramanujar-Donation-Android-App',
+                    icon : <GitHubIcon />
+                },
+                // {
+                //     link : 'https://github.com/ashishmishra-bit',
+                //     icon : <LanguageIcon />
+                // },
+            ]
+        },
+
+        {
+            tag : 'Android',
+            images : Calculator,
+            title : 'Calculator App',
+            caption : 'My First Android App',
+            desc : 'This is the Calulator application coded in Java.',
+            links : [
+                {
+                    link : 'https://github.com/nks102000/Ramanujar-Donation-Android-App',
+                    icon : <GitHubIcon />
+                },
+                // {
+                //     link : 'https://github.com/ashishmishra-bit',
+                //     icon : <LanguageIcon />
+                // },
+            ]
+        },
+
+        {
+            tag : 'Photography',
+            images : Pic1,
+            title : 'Blasing Fire',
+            caption : 'Winter Masti',
+            // desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://www.instagram.com/p/CJ8CZ2JHC2CIyb0pKIaiIUDVJ5r0VMLa926bDk0/',
+                    icon : <InstagramIcon />
+                },
+                // {
+                //     link : 'https://github.com/ashishmishra-bit',
+                //     icon : <LanguageIcon />
+                // },
+            ]
+        },
+        
+        {
+            tag : 'Websites',
+            images : Port2,
+            title : 'Portfolio Website',
+            caption : 'Personal Porfilio Website ',
+            desc : 'This is the website is coded in React.',
+            links : [
+                {
+                    link : 'https://github.com/nks102000/React_portfolio',
+                    icon : <GitHubIcon />
+                },
+                // {
+                //     link : 'https://github.com/ashishmishra-bit',
+                //     icon : <LanguageIcon />
+                // },
+            ]
+        },
+
+
+        
+        {
+            tag : 'Photography',
+            images : Pic2,
+            title : 'Rainbow',
+            caption : 'Flight Rainbow Scene',
+            // desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://www.instagram.com/p/B-zOUG_H_ETNdvBxJsFTWzCoDCvPm9EqLxrCkw0/',
+                    icon : <InstagramIcon />
+                },
+                // {
+                //     link : 'https://github.com/ashishmishra-bit',
+                //     icon : <LanguageIcon />
+                // },
+            ]
+        },
+
+        {
+            tag : 'Photography',
+            images : Pic3,
+            title : 'Cup ',
+            caption : 'When the cup breaks but u know how to use it',
+            // desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://www.instagram.com/p/B4hwew1nWGi5ZDSYrzFg_LlHFhRl_q_tkIN6PQ0/',
+                    icon : <InstagramIcon />
+                },
+                // {
+                //     link : 'https://github.com/ashishmishra-bit',
+                //     icon : <LanguageIcon />
+                // },
+            ]
+        },
+
+        {
+            tag : 'Photography',
+            images : Pic4,
+            title : 'Squril ',
+            caption : 'Random garden Photography',
+            // desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://www.instagram.com/p/B4VRF7fnxLCsbN6UqIN5EHwLlWBt-I5uSswkxs0/',
+                    icon : <InstagramIcon />
+                },
+                // {
+                //     link : 'https://github.com/ashishmishra-bit',
+                //     icon : <LanguageIcon />
+                // },
+            ]
+        },
+
+        {
+            tag : 'Photography',
+            images : Pic5,
+            title : 'Greenery ',
+            caption : 'Greenery with sunlight best combination',
+            // desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://www.instagram.com/p/B07mZP3n6vpBEI69IGT4OYL7lA0o4uM-Zw7FkY0/',
+                    icon : <InstagramIcon />
+                },
+                // {
+                //     link : 'https://github.com/ashishmishra-bit',
+                //     icon : <LanguageIcon />
+                // },
+            ]
+        },
+
+        {
+            tag : 'Photography',
+            images : Pic6,
+            title : 'Sunlight ',
+            caption : 'Captuured from a bus while travelling to mussoorie',
+            // desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://www.instagram.com/p/Bo6bRYzFT5xDwk3-2DUIzupTrEGEEKtDI2xWac0/',
+                    icon : <InstagramIcon />
+                },
+                // {
+                //     link : 'https://github.com/ashishmishra-bit',
+                //     icon : <LanguageIcon />
+                // },
+            ]
         },
     ],
 };
