@@ -32,11 +32,14 @@
     background-color:var(--main-color);
     padding:22px !important;
     display: flex !important;
+    color: white !important;
     justify-content: center !important;
     align-items: center !important;
     border-top-left-radius: 6px !important;
     border-bottom-left-radius: 6px !important;
 }
+
+
 .header .header_left {
     margin-right: auto !important;
 }

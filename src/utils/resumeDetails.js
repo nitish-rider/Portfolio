@@ -54,7 +54,7 @@ export default {
             icon : <InstagramIcon />,
         },  
     },
-    about: 'Hello guys, this is Ashish Kumar Mishra. I am an earnest techie  with keen interest in every new updates that come up    everyday. I love being hardworking and dedicated to whatever I take up as a task. Web development attracts me the most. And I also have some basic idea in android. Apart from that I also have knowledge on SEO.The last one year has been an amazing experience.\n\nThe journey of my BTech years has started with these new experiences and I felt a keen interest growing in me. Getting to learn these things have always been worth it. But this is just the beginning. I am always brushing up my skills more to attain perfection. Looking forward to gather more knowledge and being more accurate in my field.',
+    about: 'Myself Nitish Kumar Sonthalia. I am a dedicated CSE Undergrad who is eager to do all kinds of coding stuff. I enjoy developing apps and doing CP. I learned Java, Python, and App Development. Also, I have experience in HTML,CSS,Javascript. Besides, I also know how to use GIT and GITHUB. I am also a 2* coder at CodeChef. I have pretty decent work experience and have done multiple projects namely, calculator app and music recommendation app. I am currently a member of GeeksforGeeks - KIIT Club, IOT LABS as an Android Developer and Competitive Programmer. I was also the Campus Ambassador at Verzeo. I have participated in Machine Learning Model Development at Verzeo and Android Development at Inninc Studios.I have also participated in Google HashCode 2021. I am always eager to learn and experiment with new things and become professional in my career.',
 
     experiences : [
         {
