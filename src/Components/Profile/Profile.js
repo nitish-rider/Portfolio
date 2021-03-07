@@ -64,7 +64,7 @@ const Profile = () => {
                 <br />
                 
                 <div className = "button_container">
-                <a href="https://drive.google.com/file/d/1DpT10b6A6Y2gzBzo8g_m8qjaTxmQS712/view?usp=sharing" target="_blank"><CustomButton text = {'Download Resume'} icon = {<GetAppIcon />}  link = {""}/></a>
+                <a href="https://drive.google.com/file/d/1_3kEgBHFGaeNyJHMBoVVa4uQd3wnoj7K/view?usp=sharing" target="_blank"><CustomButton text = {'Download Resume'} icon = {<GetAppIcon />}  link = {""}/></a>
                 </div> 
 
                 {/* <Button
