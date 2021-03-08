@@ -69,7 +69,7 @@ export default {
         },
         {
             title : 'Campus Ambassador (Verzeo)',
-            date: 'November-2020 - October-2020',
+            date: 'October-2020 - November-2020',
             desc: 'I was responsibe for developing the companies website inthe give time period',
         },
         {
