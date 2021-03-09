@@ -182,7 +182,7 @@ export default {
             images : Port,
             title : 'Recipt Maker App',
             caption : 'Makes a Shareable Pdf with the data entered and stores it on a RealTime Database',
-            desc : 'This is the Recipt making application coded in Java.',
+            desc : 'This is the Receipt making application coded in Java.',
             links : [
                 {
                     link : 'https://github.com/nks102000/Ramanujar-Donation-Android-App',
